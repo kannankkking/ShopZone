@@ -1,0 +1,597 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+.navbar img{
+    width:200px;
+    height: 60px;
+    margin-left: 50px;
+}
+.navbar input{
+    width:600px;
+    height:30px;
+    margin-top: 15px;
+    border:1px solid rgb(255, 252, 252);
+    outline: none;
+    border-radius: 20px;
+    margin-left: 20px;
+   
+}
+.navbar input::placeholder{
+    font-size:18px;
+    text-align:start;
+    opacity: 0.4;
+}
+.navbar select{
+    width:100px;
+    height: 40px;
+    margin-top: 12px;
+    margin-left: 60px;
+    border: none;
+    font-size: 17px;
+    background: none;
+    cursor: pointer;
+}
+.navbar button{
+    width:100px;
+    height: 40px;
+    margin-top: 13px;
+    margin-left: 50px;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 17px;
+}
+#icon{
+    margin-right: 10px;
+}
+.navbar{
+    background-color: lightsalmon;
+}
+.navbar .icon{
+     margin-left: 50px;
+     margin-top: 6px;
+     width: 25px;
+     height: 50px;
+}
+.icon{
+    width:100px;
+}
+
+/* Section */
+
+#section1{
+    display: flex;
+    gap: 40px;
+    
+}
+#sect img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    display: flex;
+    gap: 10px;
+}
+#sect{
+    position: relative;
+    right: 10px;
+    top: 10px;
+    left: 10px;
+    padding: 5px;
+}
+#sect p{
+    text-align: center;
+    color: black;
+}
+
+/* scroll */
+
+.scroll{
+    background-image: url("../images/scroll1.jpeg");
+    width: 100%;
+    height: 250px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    animation: change 12s infinite;
+}
+.icons{
+    width: 40px;
+    height: 150px;
+    background-color: white;
+    position: relative;
+   left: 94%;
+   top: 50px;
+}
+#icons{
+    width: 40px;
+    height: 150px;
+    background-color: white;
+    position: relative;
+   top: 50px;
+    
+}
+
+/* section 3 */
+
+.section3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3%;
+    text-align: center;
+}
+#set p{
+    color: black;
+}
+#set:hover{
+    transform: translateY(-7px);
+   transition: all 2ms;
+}
+#set img{
+    width: 150px;
+    height: 150px;
+    
+}
+#set span{
+    color:rgb(0, 255, 85);
+}
+
+/* section4 */
+
+.section4{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color: black;
+    margin-top: 40px;
+}
+.set1 p{
+    color: black;
+}
+.set1:hover{
+    transform: translateY(-7px);
+   transition: all 2ms;
+}
+.section4 img{
+    width:200px;
+    height: 200px;
+}
+.set1 span{
+    color:rgb(0, 255, 85);
+}
+
+/* section 5 */
+
+.section5{
+    margin-top: 50px;
+}
+
+.section5 h2{
+    margin-bottom: 20px;
+}
+
+
+/* section 6 */
+
+
+
+.section6{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: black;
+    margin-top: 40px;
+}
+.set2{
+    border: 1px solid white;
+   
+}
+.set2:hover{
+    transform: translateY(-7px);
+   transition: all 2ms;
+}
+.set2 p{
+    color: black;
+}
+.set2 span{
+    color:rgb(0, 255, 85);
+}
+.section6 img{
+    width:200px;
+    height: 200px;
+}
+
+/* section7 */
+
+.section7{
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    text-align: center;
+    gap: 20px;
+    margin-top: 20px;
+   
+}
+.set3:hover{
+    transform: translateY(-7px);
+   transition: all 2ms;
+}
+.set3 p{
+    color:black;
+}
+.set3 span{
+    color:rgb(0, 255, 85);
+}
+.section7 img{
+    width:200px;
+    height: 200px;
+}
+.sett img{
+position: relative;
+left: 880px;
+bottom: 540px;
+width: 480px;
+height: 550px;
+}
+
+
+
+
+/* section8 */
+.section8{
+    display: flex;
+ position: relative;
+bottom:500px;
+justify-content: space-around;
+gap: 2px;
+text-align: center;
+}
+#furni{
+    position: relative;
+    bottom: 550px;
+}
+
+.section8 img{
+    width:200px;
+    height: 200px;
+}
+.set4 p{
+    color:black;
+}
+.set4 span{
+    color:rgb(0, 255, 85);
+}
+.set4:hover{
+    transform: translateY(-7px);
+   transition: all 2ms;
+}
+
+
+/* section9 */
+
+.section9{
+    display: flex;
+    position: relative;
+    bottom:400px;
+    justify-content: space-around;
+    gap: 2px;
+    text-align: center;
+}
+#h2{
+    position: relative;
+    bottom: 440px;
+}
+.section9 img{
+    width:200px;
+    height: 200px;
+}
+.set5 p{
+    color:black;
+}
+.set5 span{
+    color:rgb(0, 255, 85);
+}
+.set5:hover{
+    transform: translateY(-7px);
+   transition: all 2ms;
+}
+
+
+/* section10 */
+
+.section10{
+    display: flex;
+    position: relative;
+    bottom:360px;
+    justify-content: space-around;
+    gap: 2px;
+    text-align: center;
+}
+#best{
+    position: relative;
+    bottom: 390px;
+}
+.section10 img{
+    width:200px;
+    height: 200px;
+}
+.set6 p{
+    color:black;
+}
+.set6 span{
+    color:rgb(0, 255, 85);
+}
+.set6:hover{
+    transform: translateY(-7px);
+   transition: all 2ms;
+}
+
+.marqueee {
+    /* margin-bottom: 50%; */
+    position: relative;
+    bottom:300px;
+}
+.marqueee h1 {
+    font-style: italic;
+    font-size: 30px;
+    padding: 10px;
+    color: blueviolet;
+    background-color:black;
+    width: 310px;
+    behavior: inherit;
+
+}
+
+/* section11 */
+.section11{
+    display: flex;
+    position: relative;
+    bottom:230px;
+    justify-content: space-around;
+    gap: 50px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.section11 img{
+    width:200px;
+    height: 200px;
+}
+.set7 p{
+    color:black;
+}
+.set7 span{
+    color:rgb(0, 255, 85);
+}
+.set7:hover{
+    transform: translateY(-7px);
+   transition: all 2ms;
+}
+#some{
+    position: relative;
+    bottom: 280px;
+}
+
+
+
+
+
+/* button */
+.btn button{
+    position: relative;
+    left: 44%;
+    align-items: center;
+    width: 150px;
+    padding:  3px;
+    font-size: 16px;
+    border-radius: 10px;
+    border:2px solid lightseagreen;
+    cursor: pointer;
+    bottom: 80px;
+    font-style: italic;
+   
+}
+.btn button:hover{
+    transform: translateY(-6px);
+    transition: all;
+}
+#icon{
+    position: relative;
+    right: 5px;
+    top: 2px;
+   font-size: 20px;
+}
+
+
+
+@media screen and (max-width:600px){
+    .navbar img{
+     width: 100px;
+     position: relative;
+     right: 50px;
+    }
+    .navbar input{
+        width: 150px;
+        position: relative;
+        right: 50px;
+    }
+    .navbar select{
+        position: relative;
+        right: 90px;
+    }
+    .navbar select{
+        position: relative;
+        right: 90px;
+    }
+    .navbar button{
+        position: relative;
+        right: 130px;
+        width: 50px;
+    }
+   .icon{
+        position: relative;
+        right: 200px;
+        width: 50px;
+    }
+
+    /* section1 */
+
+    #section1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .scroll{
+        width: 500px;
+        
+    }
+    /* section3 */
+.section3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+    /* section4 */
+    .section4{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 40px;
+    }
+    /* section5 */
+     
+.section5{
+    position: relative;
+    left: 10px;
+    /* gap: 50px; */
+}
+ /* section6 */
+ .section6{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+ /* section7 */
+ .section7{
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+    left: 8px;
+    position: relative;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.sett{
+   display: none;
+
+}
+
+ /* section8 */
+ .section8{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 40px;
+    position: relative;
+    top: 100px;
+
+}
+#furni{
+    position: relative;
+    top: 50px;
+}
+
+ /* section9 */
+ .section9{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 40px;
+    position: relative;
+    top: 150px;
+    
+
+}
+#h2{
+    position: relative;
+    top: 130px;
+}
+
+ /* section10 */
+ .section10{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 40px;
+    position: relative;
+    top: 170px;
+}
+.marqueee{
+    position: relative;
+    top: 200px;
+}
+
+/* section11 */
+.section11{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 40px;
+    position: relative;
+    top: 250px;
+}
+#some{
+    position: relative;
+    top: 220px;
+}
+
+#best{
+    position: relative;
+    top: 150px;
+}
+.btn{
+    position: relative;
+    right: 50px;
+    top: 280px;
+   
+}
+.btn button{
+    position: relative;
+    top: 1px;
+}
+}
+
+
+/* keyframes */
+
+
+@keyframes change {
+    0%{
+        background-image: url("../images/scroll2.jpeg");
+    }
+    20%{
+        background-image: url("../images/scroll3.jpeg");
+    }
+    40%{
+        background-image: url("../images/scroll4.jpeg");
+    }
+    60%{
+        background-image: url("../images/scroll5.jpeg");
+    }
+    80%{
+        background-image: url("../images/scroll6.jpeg");
+    }
+    100%{
+        background-image: url("../images/scroll7.jpeg");
+    }
+    
+}

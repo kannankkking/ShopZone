@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+.navbar img{
+    width:200px;
+    height: 60px;
+    margin-left: 50px;
+}
+.navbar input{
+    width:600px;
+    height:30px;
+    margin-top: 15px;
+    border:1px solid rgb(255, 252, 252);
+    outline: none;
+    border-radius: 20px;
+    margin-left: 20px;
+   
+}
+.navbar input::placeholder{
+    font-size:18px;
+    text-align:start;
+    opacity: 0.4;
+}
+.navbar select{
+    width:100px;
+    height: 40px;
+    margin-top: 12px;
+    margin-left: 60px;
+    border: none;
+    font-size: 17px;
+    background: none;
+    cursor: pointer;
+}
+.navbar button{
+    width:100px;
+    height: 40px;
+    margin-top: 13px;
+    margin-left: 50px;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 17px;
+}
+#icon{
+    margin-right: 10px;
+}
+.navbar{
+    background-color: lightsalmon;
+}
+.navbar .icon{
+     margin-left: 50px;
+     margin-top: 6px;
+     width: 25px;
+     height: 50px;
+}
+.icon{
+    width:100px;
+}
+
+
+#h1{
+    text-align: center;
+    font-size: 20px;
+    /* padding: 10px; */
+    margin-bottom: 20px;
+}
+/* sector1 */
+.sector1{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+    text-align: center;
+    gap: 5px;
+
+}
+.set1{
+    box-shadow: 1px 1px 5px ;
+}
+.set1 img{
+    width: 210px;
+    height: 200px;
+}
+.set1 h5:hover{
+    color: rgb(99, 162, 201);
+    cursor: pointer;
+}
+.set1 p{
+   width:50px;
+   height: 20px;
+   background-color: green;
+   margin-left: 80px;
+}
+.heart{
+    position: relative;
+   left: 90px;
+    font-size: 20px;
+    bottom: 190px;
+    font-weight: 700;
+}
+.set1:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+}
+
+/* sector2 */
+.sector2{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+    text-align: center;
+    gap: 5px;
+
+}
+.set2{
+    box-shadow: 1px 1px 5px ;
+}
+.set2 img{
+    width: 210px;
+    height: 200px;
+}
+.set2 h5:hover{
+    color: rgb(99, 162, 201);
+    cursor: pointer;
+}
+.set2 p{
+   width:50px;
+   height: 20px;
+   background-color: green;
+   margin-left: 80px;
+}
+#heart{
+    position: relative;
+    right: 30px;
+    font-size: 20px;
+    bottom: 180px;
+    font-weight: 700;
+}
+.set2:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+}
+
+/* sector3 */
+
+.sector3{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+    text-align: center;
+    gap: 5px;
+
+}
+.set3{
+    box-shadow: 1px 1px 5px ;
+}
+.set3 img{
+    width: 210px;
+    height: 200px;
+}
+.set3 h5:hover{
+    color: rgb(99, 162, 201);
+    cursor: pointer;
+}
+.set3 p{
+   width:50px;
+   height: 20px;
+   background-color: green;
+   margin-left: 80px;
+}
+.set3:hover{
+   cursor: pointer;
+   transform: scale(0.9);
+}
+#heart{
+    position: relative;
+    right: 30px;
+    font-size: 20px;
+    bottom: 180px;
+    font-weight: 700;
+}
+
+/* sector4 */
+
+.sector4{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+    text-align: center;
+    gap: 5px;
+
+}
+.set4{
+    box-shadow: 1px 1px 5px ;
+}
+.set4 img{
+    width: 210px;
+    height: 200px;
+}
+.set4 h5:hover{
+    color: rgb(99, 162, 201);
+    cursor: pointer;
+}
+.set4 p{
+   width:50px;
+   height: 20px;
+   background-color: green;
+   margin-left: 80px;
+}
+.set4:hover{
+    cursor: pointer;
+   transform: scale(0.9);
+}
+#heart{
+    position: relative;
+    right: 30px;
+    font-size: 20px;
+    bottom: 180px;
+    font-weight: 700;
+}
+
+/* sector5 */
+
+.sector5{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+    text-align: center;
+    gap: 5px;
+
+}
+.set5{
+    box-shadow: 1px 1px 5px ;
+}
+.set5 img{
+    width: 210px;
+    height: 200px;
+}
+.set5 h5:hover{
+    color: rgb(99, 162, 201);
+    cursor: pointer;
+}
+.set5 p{
+   width:50px;
+   height: 20px;
+   background-color: green;
+   margin-left: 80px;
+}
+.set5:hover{
+   cursor: pointer;
+   transform: scale(0.9);
+}
+#heart{
+    position: relative;
+    right: 30px;
+    font-size: 20px;
+    bottom: 180px;
+    font-weight: 700;
+}
